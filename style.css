@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+body {
+  font-family: 'Nanum Myeongjo';
+  margin: 0;
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; 
+  min-height: 100vh;   
+}
+
+.main-area {
+  background-color: lightgray;
+  opacity: 0.7;
+  margin-top: 15vh;  
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  min-height: 70vh;
+  /* padding-bottom: 10px; */
+}
+
+.top-area {
+  padding-top: 50px;
+  position: relative;;
+}
+
+.top-area h1 {
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.top-area div {
+  padding: 5px 0;
+}
+
+#result-area {
+  color: brown;
+  font-weight: 700;
+}
+
+#chance-area {
+  color: black;
+  font-weight: 700;
+}
+
+#user-input {
+  width: 250px;
+  height: 30px;
+  padding-left: 30px;
+}
+
+#play-button {  
+  margin-top: 10px;
+  font-size: larger;
+  padding: 10px 20px;
+  background-color: rgb(9, 146, 9);
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
+
+#play-button:hover,
+#play-button.active {
+  background: rgb(31, 240, 31);
+  color: white;
+}
+
+#reset-button { 
+  margin: 15px;
+  font-size: larger;
+  font-weight: 800;
+  padding: 15px 30px;
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  font-weight: bolder;
+}
+
+#reset-button:hover,
+#reset-button.active {
+  background: rgb(233, 233, 77);
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
