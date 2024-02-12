@@ -10,18 +10,22 @@ body {
   min-height: 100vh;   
 }
 
+.title {
+  color: blue;
+  font-weight: bolder;
+}
+
 .main-area {
   background-color: lightgray;
   opacity: 0.7;
   margin-top: 15vh;  
   box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
-  min-height: 70vh;
+  min-height: 75vh;
   /* padding-bottom: 10px; */
 }
 
 .top-area {
-  padding-top: 50px;
-  position: relative;;
+  padding-top: 5%;  
 }
 
 .top-area h1 {
@@ -30,12 +34,18 @@ body {
 }
 
 .top-area div {
-  padding: 5px 0;
+  padding-bottom: 5px;
+}
+
+#main-img {
+  width: 500px;
 }
 
 #result-area {
+  padding-top: 10px;
   color: brown;
   font-weight: 700;
+  font-weight: bolder;  
 }
 
 #chance-area {
@@ -87,3 +97,21 @@ body {
   color: red;
 }
 
+@media screen and (max-width:48rem) {
+
+  .main-area{
+    margin-top: 10vh;
+  }
+
+  .top-area {
+    padding-top: 0;
+  }
+
+  .top-area h1 {   
+    padding-bottom: 0px;
+  }
+  
+  .top-area div {
+    padding-bottom: 0px;
+  }
+}
